@@ -1,0 +1,41 @@
+*,
+*::after
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(238,174,202);
+    background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(233,228,148,1) 100%);
+}
+.head1{
+    text-align: center;
+}
+.container{
+    padding: 40px;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 0 20px 25px rgb(0, 0, 0, 0.25);
+}
+.convert {
+    width: 50%;
+}
+
+input1 {
+    width: auto;
+    height: 50px;
+    margin-top: 8px;
+    padding: 0 10px;
+    border-radius: 10px;
+    border: 2px solid #777;
+    outline: none;
+    text-align: center;
+    align-items: center;
+}
